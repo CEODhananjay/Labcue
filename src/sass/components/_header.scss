@@ -1,0 +1,181 @@
+.header_section{
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    .navbar{
+        .main_box_nav{
+            width: 100%;
+            .upper_top_div{
+                background-color: var(--black);
+                p{
+                    color:var(--white);
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+            .top_navbar{
+                background-color: var(--light-blue);
+                .search_box{
+                    .input-group{
+                       
+                        .form-control{
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: var(--text-color);
+                            border-top-left-radius: 25px;
+                            border-bottom-left-radius: 25px;
+                        }
+                        .input-group-text{
+                            border-top-right-radius: 25px;
+                            border-bottom-right-radius: 25px;
+                            select{
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: var(--text-color); 
+                            }
+                            .butn_search{
+                                background-color: var(--light-blue);
+                                border-radius: 25px;
+                                color: var(--white);
+                                font-size: 14px;
+                                padding: 9px 19px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+                .button_group{
+                    .signin_btn{
+                        border-radius: 25px;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: var(--black);
+                        background-color: var(--white);
+                        padding: 9px 19px;
+                    }
+                    .cart_btn{
+                        border-radius: 25px;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: var(--black);
+                        padding: 9px 19px;
+                        background-color: var(--black);
+                        color: var(--white);
+                        position: relative;
+                       .cart_no{
+                            position: absolute;
+                            content: "";
+                            bottom: 5px;
+                            left: -24px;
+                            right: 0;
+                            margin: auto;
+                            height: 15px;
+                            border-radius: 50%;
+                            width: 15px;
+                            background-color: var(--light-blue);
+                            color: var(--white);
+                            font-size: 11px;
+                            font-weight:600;
+                        }
+                    }
+                }
+            }
+            .menudata_list{
+                    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                
+               .collapse{
+                .navbar-nav{
+                    li{
+                        min-width: 120px;
+                        padding: 10px;
+                        a{
+                            font-size: 16px;
+                            color: var(--black);
+                            font-weight: 700;
+                            line-height: 28px;
+                            letter-spacing: 0.5px;
+                            &:hover,
+                            &:active{
+                                color: var(--light-blue);
+                            }
+                        }
+                    }
+                }
+               }
+            }
+        }
+    }
+}
+
+
+
+// media start esposnive
+
+@media (min-width:12000px) and (max-width:1399px){}
+@media (min-width:992px) and (max-width:1199px){}
+@media (min-width:768px) and (max-width:991px){}
+@media (min-width:320px) and (max-width:767px){
+    .header_section{
+        .navbar{
+            .main_box_nav{
+                .upper_top_div{
+                    p{
+                        font-size: 13px;
+                    }
+                }
+                .top_navbar{
+                    justify-content: space-between !important;
+                 .logo_box{
+                    img{
+                        width: 90px;
+                    }
+                    .navbar-toggler{
+                        .navbar-toggler-icon{
+                            height: 20px !important;
+                        }
+                    }
+                 }
+                    .search_box{
+                        display: none;
+                        .input-group{
+                            display: none;
+                         
+                        }
+                    }
+                    .button_group{
+                        display: none !important;
+                        .signin_btn{
+                           display: none;
+                        }
+                        .cart_btn{
+                            display: none;
+                        }
+                    }
+                }
+                .menudata_list{
+                        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                    
+                   .collapse{
+                    .navbar-nav{
+                        li{
+                            min-width: 120px;
+                            padding: 10px;
+                            a{
+                                font-size: 16px;
+                                color: var(--black);
+                                font-weight: 700;
+                                line-height: 28px;
+                                letter-spacing: 0.5px;
+                                &:hover,
+                                &:active{
+                                    color: var(--light-blue);
+                                }
+                            }
+                        }
+                    }
+                   }
+                }
+            }
+        }
+    }
+}

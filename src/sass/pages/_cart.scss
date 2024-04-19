@@ -1,0 +1,110 @@
+.cart_page {
+    background-color: #0000000f !important;
+
+    .cart_head {
+        h2 {
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 39px;
+            letter-spacing: 0.5px;
+            color: var(--black);
+        }
+    }
+
+    .cart_table {
+        background-color: var(--white);
+        padding: 20px 20px 40px 20px;
+        border-radius: 20px;
+
+        table {
+
+
+            thead {
+
+                tr {
+                    th {
+                        font-weight: 700;
+                        color: #0000008f;
+                        font-size: 17px;
+                        line-height: 26px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            tbody {
+
+                tr {
+                    td {
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: var(--black);
+                        font-weight: 500;
+
+                        .item_box {
+                            .product_name {
+                                h3 {
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    color: var(--black);
+                                    font-weight: 500;
+                                    word-break: break-all;
+                                    text-align: left !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+
+        .footer_bottom {
+            .total_amount_box {
+                .sub_head {
+                    h3 {
+                        text-align: center;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 32px;
+                        letter-spacing: 0.5px;
+                        color: var(--black);
+                    }
+                }
+
+                .total_amnt {
+                    p {
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 32px;
+                        letter-spacing: 0.5px;
+                        color: var(--black);
+                    }
+                }
+            }
+        }
+
+      .checkout_btn{
+        margin-right: 0 !important;
+        .btn_check{
+            background-color: var(--light-blue);
+            border-radius: 25px;
+            color: var(--white);
+            font-size: 16px;
+            padding: 11px 19px;
+            font-weight: 600;
+            border: 2px solid var(--light-blue);
+            
+            &:hover{
+                background-color: var(--white);
+                color: var(--light-blue);
+                border: 2px solid var(--light-blue);
+            }
+        }
+      }
+
+
+    }
+}

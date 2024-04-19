@@ -1,0 +1,204 @@
+.baner_about{
+    min-height: 70vh;
+    background-image: url(/public/images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #0000006e;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+    .banner_box_about{
+        h2{
+            color: var(--white);
+            font-size: 35px;
+            line-height: 52px;
+            position: relative;
+        }
+        a{
+            text-decoration: unset;
+            h3{
+                color: var(--white);
+                font-size: 19px;
+                position: relative;
+                line-height: 19px;
+            }
+        }
+    }
+}
+
+
+.about_page{
+    padding: 0px 0px 100px 0px;
+ .about_head{
+    h2{
+      font-size: 30px;
+        font-weight: 500;
+        color: var(--black);
+        line-height: 34px; 
+        position: relative;
+        &:before{
+            position: absolute;
+            content: "";
+           bottom: -14px;
+    margin: auto;
+    left: 3px;
+            height: 3px;
+            width: 70px;
+            background-color: var(--light-blue);
+        }
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        // color: var(--black);
+        line-height: 21px;
+        color: #000000ba;
+    }
+ }
+ .image_with_content{
+    h3{
+        font-size: 25px;
+        font-weight: 500;
+        color: var(--black);
+        line-height: 34px; 
+    }
+ }
+}
+
+
+// media start esposnive
+
+@media (min-width:1200px) and (max-width:1399px){}
+@media (min-width:992px) and (max-width:1199px){
+        .baner_about{
+            min-height: 60vh;
+            .banner_box_about{
+                h2{
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+            
+            }
+        }
+        .about_page{
+        padding: 40px 0 !important;
+        .about_head{
+            padding: 10px 0 !important;
+            h2{
+                font-size: 30px;
+                line-height: 36px;
+                &:before{
+                    position: absolute;
+                    content: "";
+                bottom: -10px;
+                }
+            }
+        
+        }
+        .image_with_content{
+            margin-top: 0px  !important;
+            h3{
+                font-size: 30px;
+                    line-height: 36px;
+            }
+        }
+        }
+}
+@media (min-width:768px) and (max-width:991px){
+    .baner_about{
+        min-height: 60vh;
+        .banner_box_about{
+            h2{
+                font-size: 25px;
+                line-height: 29px;
+            }
+            a{
+                text-decoration: unset;
+                h3{
+                    color: var(--white);
+                    font-size: 19px;
+                    position: relative;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+    .about_page{
+    padding: 40px 0 !important;
+     .about_head{
+        padding: 10px 0 !important;
+        h2{
+          font-size: 25px;
+            line-height: 31px; 
+            &:before{
+                position: absolute;
+                content: "";
+               bottom: -10px;
+            }
+        }
+      
+     }
+     .image_with_content{
+        h3{
+            font-size: 25px;
+            line-height: 31px;
+        }
+     }
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .baner_about{
+        min-height: 50vh;
+    
+        .banner_box_about{
+            h2{
+                font-size: 25px;
+                line-height: 29px;
+            }
+            a{
+                text-decoration: unset;
+                h3{
+                    color: var(--white);
+                    font-size: 19px;
+                    position: relative;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+    .about_page{
+    padding: 40px 0 !important;
+     .about_head{
+        padding: 10px 0 !important;
+        h2{
+          font-size: 22px;
+            line-height: 28px; 
+            &:before{
+                position: absolute;
+                content: "";
+               bottom: -7px;
+            }
+        }
+      
+     }
+     .image_with_content{
+        h3{
+            font-size: 22px;
+            line-height: 28px; 
+        }
+     }
+    }
+    
+}
+
+

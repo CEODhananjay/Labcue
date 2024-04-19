@@ -1,0 +1,110 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&family=Prompt:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+:root{
+    --black:#000;
+    --white:#fff;
+    --light-blue:#57b1ba;
+    --border:#e5e5e5;
+    --light-grey:#eeeeee;
+    --text-color:#777777;
+    --light-bg:#e7f2f0;
+    --light-border:#c6bbbb;
+    --new-border:#d4cece;
+    --dark-grey:#8080801a;
+
+}
+body {
+  // font-family: 'Prompt', sans-serif !important;
+  font-family: "Karla", sans-serif  !important;
+
+  }
+section{
+  padding: 80px 0;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../assets/font/Poppins-Regular.ttf);
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url(../../assets/font/Poppins-Medium.ttf);
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: Poppins;
+    src: url(../../assets/font/Poppins-SemiBold.ttf);
+    font-weight: 600;
+  }
+
+  // .top_new_sale,
+  // .btn_view_box,
+  // .add_to_cart{
+  //     display:none !important ;
+  // }
+
+  .slider_box{
+    .swiper{
+        .swiper-button-prev {
+            &::after{     
+            font-size: 13px;
+            color: var(--black);
+            background: var(--white);
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            font-weight:900;
+            }
+        }
+        .swiper-button-next{
+            &:after{
+                font-size: 13px;
+                color: var(--black);
+                background: var(--white);
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                font-weight:900;
+            }
+        }
+    }
+}
+
+
+
+
+// media start esposnive
+
+@media (min-width:1200px) and (max-width:1399px){}
+@media (min-width:992px) and (max-width:1199px){}
+@media (min-width:768px) and (max-width:991px){}
+@media (min-width:320px) and (max-width:767px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  

@@ -1,0 +1,310 @@
+.contact_page{
+    padding: 100px 0 80px 0;
+    .head_per{
+        h2{
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 35px;
+          color: var(--black);  
+        }
+    }
+    .form_boxes{
+        background-color: rgb(206 206 206 / 18%);
+        padding: 35px;
+       
+        .form_field{
+            label{
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--black);
+                line-height: 29px;
+            }
+            .form-control{
+                // border: 1px solid var(--light-border);
+                border: 1px solid rgb(206 206 206 / 18%);
+                color: var(--black);
+                font-size: 15px;
+                line-height: 28px;
+                &::placeholder{
+                    font-size: 15px;
+                    font-weight: 400;
+                    opacity: 0.8;
+                }
+            }
+            .sub_mit{
+                background-color: var(--light-blue);
+                border-radius: 25px;
+                color: var(--white);
+                font-size: 14px;
+                padding: 13px 50px;
+                font-weight: 500;
+                &:hover{
+                    background-color: var(--black);
+                }
+            }
+
+        }
+    }
+    .address_box{
+        h2{
+            font-size: 30px;
+              font-weight: 700;
+              line-height: 35px;
+              color: var(--black);  
+        }
+        .list_address{
+            ul{
+                li{
+                    p{
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: var(--black);
+                        line-height: 16px;
+                    }
+                
+                }
+            }
+        }
+    }
+}
+
+
+
+// media start esposnive
+
+@media (min-width:1200px) and (max-width:1399px){
+    .contact_page{
+        padding: 60px 0 !important;
+        .address_box{
+            h2{
+               font-size: 22px;
+               line-height: 28px;
+            }
+            .list_address{
+                ul{    
+                    li{
+                       gap: 10px !important;
+                       svg{
+                           height: 20px !important;
+                           width: 20px !important;
+                       }
+                        p{
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .contact_page{
+        padding: 40px 0 !important;
+         .head_per{
+             h2{
+               font-size: 22px;
+               line-height: 28px;
+             }
+         }
+         .form_boxes{
+             padding: 25px;
+            
+             .form_field{
+                 label{
+                     font-size: 14px;
+                     line-height: 16px;
+                 }
+                 .form-control{
+                     font-size: 15px;
+                     line-height: 28px;
+                     &::placeholder{
+                         font-size: 13px;
+                         opacity: 0.8;
+                     }
+                 }
+                 .sub_mit{
+                     font-size: 13px;
+                     padding: 10px 50px;
+                 }
+     
+             }
+         }
+         .address_box{
+             h2{
+                font-size: 22px;
+                line-height: 28px;
+             }
+             .list_address{
+                 ul{    
+                     li{
+                        gap: 10px !important;
+                        width: 100% !important;
+                        svg{
+                            height: 20px !important;
+                            width: 20px !important;
+                        }
+                         p{
+                             font-size: 14px;
+                             line-height: 16px;
+                         }
+                     
+                     }
+                 }
+             }
+         }
+     }   
+}
+@media (min-width:768px) and (max-width:991px){
+    .contact_page{
+        padding: 40px 0 !important;
+         .head_per{
+             h2{
+               font-size: 22px;
+               line-height: 28px;
+             }
+         }
+         .form_boxes{
+             padding: 20px;
+            
+             .form_field{
+                 label{
+                     font-size: 14px;
+                     line-height: 16px;
+                 }
+                 .form-control{
+                     font-size: 15px;
+                     line-height: 28px;
+                     &::placeholder{
+                         font-size: 13px;
+                         opacity: 0.8;
+                     }
+                 }
+                 .sub_mit{
+                     font-size: 13px;
+                     padding: 10px 50px;
+                 }
+     
+             }
+         }
+         .address_box{
+             h2{
+                font-size: 22px;
+                line-height: 28px;
+             }
+             .list_address{
+                 ul{
+                   flex-direction: column;
+                   align-items: flex-start !important;
+                     li{
+                        gap: 10px !important;
+                        width: 100% !important;
+                        svg{
+                            height: 20px !important;
+                            width: 20px !important;
+                        }
+                         p{
+                             font-size: 14px;
+                             line-height: 16px;
+                         }
+                     
+                     }
+                 }
+             }
+         }
+     }      
+}
+@media (min-width:320px) and (max-width:767px){
+    .contact_page{
+        padding: 30px 0 !important;
+         .head_per{
+             h2{
+               font-size: 22px;
+               line-height: 28px;
+             }
+         }
+         .form_boxes{
+             padding: 15px;
+            
+             .form_field{
+                 label{
+                     font-size: 14px;
+                     line-height: 16px;
+                 }
+                 .form-control{
+                     font-size: 15px;
+                     line-height: 28px;
+                     &::placeholder{
+                         font-size: 13px;
+                         opacity: 0.8;
+                     }
+                 }
+                 .sub_mit{
+                     font-size: 13px;
+                     padding: 10px 50px;
+                 }
+     
+             }
+         }
+         .address_box{
+            padding: 30px 0;
+             h2{
+                font-size: 22px;
+                line-height: 28px;
+             }
+             .list_address{
+                 ul{
+                   flex-direction: column;
+                   align-items: flex-start !important;
+                     li{
+                        gap: 10px !important;
+                        width: 100% !important;
+                        svg{
+                            height: 20px !important;
+                            width: 20px !important;
+                        }
+                         p{
+                             font-size: 14px;
+                             line-height: 16px;
+                         }
+                     
+                     }
+                 }
+             }
+         }
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
