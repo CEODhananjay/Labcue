@@ -1,2 +1,2 @@
 [build]
-  command = "npm install -f"
+  command = "npm i -f"
